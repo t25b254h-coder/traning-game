@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 file_path = st.file_uploader('', type=['png', 'pdf', 'jpg', 'jpeg'])
-img = Image.open(file_path)
+img = Image.open(houkookusyo)
 st.image(img)
 
 
