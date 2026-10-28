@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>学習育成ゲーム</title>
+    <!-- CSSの読み込み -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h1>基礎数理B 育成クイズ</h1>
+        <img src="images/Hiroto.jpg" style="width: 150px; height: auto;">
+
+        <!-- キャラクター表示エリア -->
+        <div class="character-area">
+            <div id="char-avatar" class="avatar chick">🐥</div>
+            <p id="char-status">レベル: 000 (ひよこちゃん)</p>
+        </div>
+
+        <!-- 問題エリア -->
+        <div class="quiz-area">
+            <p class="question">行列式 $det\begin{pmatrix} a & b \\ c & d \end{pmatrix}$ の計算式として正しいものを選べ</p>
+            <div class="options">
+                <button onclick="checkAnswer(1)">1. -ad + bc</button>
+                <button onclick="checkAnswer(2)">2. ad + bc</button>
+                <button onclick="checkAnswer(3)">3. ad - bc</button>
+                <button onclick="checkAnswer(3)">4. ?? - ??</button>
+            </div>
+        </div>
+
+        <!-- 結果表示 -->
+        <p id="message"></p>
+    </div>
+
+    <!-- JavaScriptの読み込み（bodyの最下部） -->
+    <script src="script.js"></script>
+</body>
+</html>
