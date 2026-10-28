@@ -29,7 +29,7 @@ loadQuiz();
 
 function loadQuiz() {
   // 問題を取得
-  const currentQuizData = quizDataJp[currentQuiz];
+  const currentQuizData = quizDataMath[currentQuiz];
 
   // 質問文を表示
   questionElm.innerText = currentQuizData.question;
@@ -38,7 +38,6 @@ function loadQuiz() {
   a_text.innerText = currentQuizData.a;
   b_text.innerText = currentQuizData.b;
   c_text.innerText = currentQuizData.c;
-  d_text.innerText = currentQuizData.d;
 }
 
 function getAnswered() {
@@ -64,9 +63,8 @@ function checkScore() {
   if (score == quizDataJp.length) {
     return '全問正解！おめでとう！';
   } else {
-    return '曲を聞いてもう一回挑戦しよう！';
+    return 'もう一回挑戦しよう！';
   }
-}
 
 
 submitBtn.addEventListener('click', event => {
@@ -100,7 +98,7 @@ nextQuizBtn.addEventListener('click', event => {
   currentQuiz++;
 
   // まだ問題が残っている
-  if (currentQuiz < quizDataJp.length) {
+  if (currentQuiz < quizDataMath.length) {
     // 次の問題を読み込む
     loadQuiz();
 
