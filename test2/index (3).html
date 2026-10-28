@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Quiz</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="script.js" defer></script>
+</head>
+<body>
+  <div id="quiz-container">
+    
+    <!-- スタート画面（ホーム画面） -->
+    <div id="start-container">
+      <h1>洋楽ロッククイズ</h1>
+      <p>全 4 問のクイズに挑戦しよう！</p>
+      <button id="start-btn">スタート</button>
+    </div>
+
+    <!-- クイズ画面（初期状態は非表示） -->
+    <div id="quiz-header" style="display: none;">
+      <h2 id="question">Question text</h2>
+      
+      <form id="quiz-form" name="quizForm">
+        <ul>
+          <li>
+            <input type="radio" id="a" name="answer" value="a" />
+            <label id="a-text" for="a">Question</label>
+          </li>
+          <li>
+            <input type="radio" id="b" name="answer" value="b" />
+            <label id="b-text" for="b">Question</label>
+          </li>
+          <li>
+            <input type="radio" id="c" name="answer" value="c" />
+            <label id="c-text" for="c">Question</label>
+          </li>
+          <li>
+            <input type="radio" id="d" name="answer" value="d" />
+            <label id="d-text" for="d">Question</label>
+          </li>
+        </ul>  
+      </form>
+    </div>
+    
+    <button id="submit" style="display: none;">回答する</button>
+
+    <!-- 結果画面（初期状態は非表示） -->
+    <div id="results-container">
+      <div id="results-header">
+        <h2 id="results"></h2>
+        <button id="next-quiz">次の問題へ</button>
+      </div>
+
+      <!-- 最終結果表示エリア（全問終了時に使用） -->
+      <div id="final-results" style="display: none;">
+        <h2 id="score-text"></h2>
+        <div id="summary-list"></div>
+        <button id="restart-btn">もう一度挑戦する</button>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

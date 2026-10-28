@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #b8c6db;
+
+  /* NOTE */
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 100%);
+
+  /* NOTE */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+
+  /* NOTE */
+  min-height: 100vh;
+}
+
+#quiz-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+
+  /* NOTE */
+  overflow: hidden;
+
+  width: 600px;
+  max-width: 100%;
+  display: unset;
+}
+
+#quiz-header {
+  padding: 4rem;
+}
+
+h2 {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+ul li input {
+  cursor: pointer;
+}
+
+ul li label {
+  cursor: pointer;
+}
+
+button {
+  background-color: #304dec;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-family: inherit;
+  font-size: 1.1rem;
+  width: 100%;
+  padding: 1.3rem;
+}
+
+button:hover {
+  background-color: #233bc4;
+}
+
+#results-container {
+  display: none;
+  align-items: center;
+}
+
+#results-header {
+  text-align: center;
+  justify-content: center;
+}
+
+#results {
+  padding: 2rem 0;
+}
+
+/* style.css の末尾に追加 */
+
+#start-container {
+  padding: 4rem;
+  text-align: center;
+}
+
+#start-container h1 {
+  margin-top: 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+#start-container p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+/* style.css の末尾に追加 */
+
+#final-results {
+  padding: 2rem;
+  text-align: center;
+}
+
+#summary-list {
+  text-align: left;
+  margin: 1.5rem 0;
+  max-height: 300px;
+  overflow-y: auto; /* 問題が多い場合にスクロール可能に */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #f9f9f9;
+}
+
+.summary-item {
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px dashed #ccc;
+}
+
+.summary-item:last-child {
+  border-bottom: none;
+}
+
+.summary-item p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+.correct-text {
+  color: #10b981;
+  font-weight: bold;
+}
+
+.wrong-text {
+  color: #ef4444;
+  font-weight: bold;
+}
+
+#restart-btn {
+  background-color: #10b981;
+}
+
+#restart-btn:hover {
+  background-color: #059669;
+}
