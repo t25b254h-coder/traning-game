@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Quiz</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="script.js" defer></script>
+</head>
+<body>
+  <div id="quiz-container">
+    
+    <!-- ホーム画面 -->
+    <div id="home-container">
+      <h1>ひよこの学習部屋</h1>
+      <button1 id="quiz1-btn">数学問題</button1>
+      <button2 id="quiz2-btn">物理問題</button2>
+      <button3 id="quiz3-btn">プログラミング問題</button3>
+    </div>
+    <!-- スタート画面（クイズ開始画面） -->
+    <div id="start-container" style="display: none;">
+      <h1>基礎数理クイズ</h1>
+      <p>全 4 問のクイズに挑戦しよう！</p>
+      <p>出題範囲：基礎数理A1 応用数理B 電気数理Ⅰ 離散数学</p>
+      <button4 id="start-btn">スタート</button4>
+      <button5 id="back-btn">戻る</button5>
+    </div>
+
+    <!-- クイズ画面（初期状態は非表示） -->
+    <div id="quiz-header" style="display: none;">
+      <h2 id="question">Question text</h2>
+      
+      <form id="quiz-form" name="quizForm">
+        <ul>
+          <li>
+            <input type="radio" id="a" name="answer" value="a" />
+            <label id="a-text" for="a">Question</label>
+          </li>
+          <li>
+            <input type="radio" id="b" name="answer" value="b" />
+            <label id="b-text" for="b">Question</label>
+          </li>
+          <li>
+            <input type="radio" id="c" name="answer" value="c" />
+            <label id="c-text" for="c">Question</label>
+          </li>
+        </ul>  
+      </form>
+    </div>
+    
+    <button id="submit" style="display: none;">回答する</button>
+
+    <!-- 結果画面（初期状態は非表示） -->
+    <div id="results-container">
+      <div id="results-header">
+        <h2 id="results"></h2>
+        <button6 id="next-quiz">次の問題へ</button6>
+      </div>
+
+      <!-- 最終結果表示エリア（全問終了時に使用） -->
+      <div id="final-results" style="display: none;">
+        <h2 id="score-text"></h2>
+        <div id="summary-list"></div>
+        <button7 id="restart-btn">もう一度挑戦する</button7>
+        <button8 id="back-home-btn">ホームに戻る</button8>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
