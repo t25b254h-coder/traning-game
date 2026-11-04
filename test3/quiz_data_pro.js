@@ -197,3 +197,93 @@ const quizDataPro = [
         choices:["[1, 2, 5, 8]", "[8, 5, 2, 1]", "[5, 2, 8, 1]"],
         correctIndex: 0
     },
+    {
+        category:'pro',
+        question:'numbers = [1, 2, 2, 3, 3, 3 ]\nprint(set(numbers))',
+        choices:["3", "6", "2"],
+        correctIndex: 0
+    },
+    {
+        category:'pro',
+        question:'numbers = [1, 2, 3, 4]\nresult = [x * 2 for x in numbers]\nprint(result)',
+        choices:["[2, 4, 6, 8] "[1, 4, 9, 16] "[1, 2, 3, 4]"],
+        correctIndex: 0
+    },
+    {
+        category:'pro',
+        question:'def mystery(n):\nif n <= 1:\nreturn 1\nreturn n * mystery(n - 1)\nprint(mystery(4))',
+        choices:["24", "4", "10"],
+        correctIndex: 0
+    },
+    {
+        category:'pro',
+        question:'text = "Hello World"\nprint(text.lower())',
+        choices:["hello world", "HERRO WORLD", "Hello World"],
+        correctIndex: 0
+    },
+    {
+        category:'pro',
+        question:'text = "Python"\nprint(text.strip())',
+        choices:["Python", ""Python"", "PYTHON"],
+        correctIndex: 0
+    },
+    {
+        category:'pro',
+        question:'x = iny("12")\nprint(x + 3)',
+        choices:["False", "0", "True"],
+        correctIndex: 0
+    },
+    {
+        category:'pro',
+        question:'text = "cat,dog,bild"\nprint(text.split(","))',
+        choices:["["cat","dog","bild"]", "cat dog bild", "["cat,dog,bild"]],
+        correctIndex: 0
+    },
+    {
+        category:'pro',
+        question:'for i in range(2):\n  for j in range(3):\n     print('*', end=")',
+        choices:["******", "*****", "***"],
+        correctIndex: 0
+    },
+    {
+        category:'pro',
+        question:'numbers = [4, 7, 9]\nprint(max(numbers) - min(numbers))',
+        choices:["5", "2", "9"],
+        correctIndex: 0
+    },
+    {
+        category:'pro',
+        question:'numbers = [10,20,30]\nprint(numbers.ondex(20))',
+        choices:["1", "0", "2"],
+        correctIndex: 0
+    },
+    {
+        category:'pro',
+        question:'x = 10\nif x > 5:\n   if x < 15:\n     print("OK")\n   else:\n     print("B")',
+        choices:["OK", "B", "なにも表示させない"],
+        correctIndex: 0
+    },
+    {
+        category:'pro',
+        question:'def mystery(n):\n  result = 0\n  while n > 0:\n    result += n % 10\n    n //= 10\n  return result\nprint(mystery(352))',
+        choices:["10", "3", "352"],
+        correctIndex: 0
+    },
+    {
+        category:'pro',
+        question:'numbers = [2, 4, 6]\nresult = list(map(lambda x:x + 1, numbers))\nprint(result)',
+        choices:["[3, 5, 7]", "[2, 4, 6]", "[1, 3, 5]"],
+        correctIndex: 0
+    },
+    {
+        category:'pro',
+        question:'a = {1, 2, 3}\nb = {3, 4}\nprint(sorted(a & b))',
+        choices:["[3]", "[1, 2, 3, 4]", "[1, 2]"],
+        correctIndex: 0
+    },
+    {
+        category:'pro',
+        question:'try:\n  x = int("abc")\nexcept ValueError:\n  print("Erroe")',
+        choices:["Error", "abc", "0"],
+        correctIndex: 0
+    },
