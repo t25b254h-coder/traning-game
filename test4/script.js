@@ -75,7 +75,7 @@ function updateClock() {
 setInterval(updateClock, 1000);
 
 
-初期状態ではホーム画面を表示
+//初期状態ではホーム画面を表示
 homeContainer.style.display = 'block';
 startContainer.style.display = 'none';
 quizHeaderElm.style.display = 'none';
