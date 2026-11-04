@@ -3,6 +3,8 @@ import { quizDataJp } from './quiz_data_jp.js';
 // 各コンテナ・要素の取得
 const homeContainer = document.getElementById('home-container');
 const quiz1Btn = document.getElementById('quiz1-btn');
+const quiz2Btn = document.getElementById('quiz2-btn');
+const quiz3Btn = document.getElementById('quiz3-btn');
 
 const startContainer = document.getElementById('start-container');
 const startBtn = document.getElementById('start-btn');
@@ -34,13 +36,23 @@ let currentQuiz = 0;
 let score = 0;
 let userAnswers = []; // 各問の正否結果を記録する配列
 
+function showclock() {
+  const now = new Date();
+  const h = String(now.getHours()).padStart(2, '0');
+  const m = String(now.getMinutes()).padStart(2, '0');
+  const s = String(now.getSeconds()).padStart(2, '0');
+  const timeString = `${h}:${m}:${s}`;
+  document.getElementById('clock').textContent = timeString;
+}
+showclock();
+setInterval(showclock, 1000);
+
 // 初期状態ではホーム画面を表示
 homeContainer.style.display = 'block';
 startContainer.style.display = 'none';
 quizHeaderElm.style.display = 'none';
 resultsConElm.style.display = 'none';
 finalResults.style.display = 'none';
-
 
 
 //ホーム画面で「数学問題」ボタンを押したときの処理
