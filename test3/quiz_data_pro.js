@@ -287,3 +287,4 @@ const quizDataPro = [
         choices:["Error", "abc", "0"],
         correctIndex: 0
     },
+]
