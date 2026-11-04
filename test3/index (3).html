@@ -12,18 +12,23 @@
     
     <!-- ホーム画面 -->
     <div id="home-container">
-      <h1>ひよこの学習部屋</h1>
-      <button1 id="quiz1-btn">数学問題</button1>
-      <button2 id="quiz2-btn">物理問題</button2>
-      <button3 id="quiz3-btn">プログラミング問題</button3>
+      <p10 id="clock"></p10>
+      <h1>🐤ひよこの学習部屋🐤</h1>
+      <img src="nebusoku.png" width="1000" height="500" alt="ひよこの学習部屋">
+      <p>どの分野の問題に挑戦しますか？</p>
+      <div class="button-group">
+        <button1 id="quiz1-btn">数学問題</button1>
+        <button2 id="quiz2-btn">物理問題</button2>
+        <button3 id="quiz3-btn">プログラミング問題</button3>
+      </div>
     </div>
     <!-- スタート画面（クイズ開始画面） -->
     <div id="start-container" style="display: none;">
       <h1>基礎数理クイズ</h1>
       <p>全 4 問のクイズに挑戦しよう！</p>
       <p>出題範囲：基礎数理A1 応用数理B 電気数理Ⅰ 離散数学</p>
-      <button4 id="start-btn">スタート</button4>
-      <button5 id="back-btn">戻る</button5>
+      <button id="start-btn">スタート</button>
+      <button id="back-btn">戻る</button>
     </div>
 
     <!-- クイズ画面（初期状態は非表示） -->
@@ -54,15 +59,15 @@
     <div id="results-container">
       <div id="results-header">
         <h2 id="results"></h2>
-        <button6 id="next-quiz">次の問題へ</button6>
+        <button id="next-quiz">次の問題へ</button>
       </div>
 
       <!-- 最終結果表示エリア（全問終了時に使用） -->
       <div id="final-results" style="display: none;">
         <h2 id="score-text"></h2>
         <div id="summary-list"></div>
-        <button7 id="restart-btn">もう一度挑戦する</button7>
-        <button8 id="back-home-btn">ホームに戻る</button8>
+        <button id="restart-btn">もう一度挑戦する</button>
+        <button id="back-home-btn">ホームに戻る</button>
       </div>
     </div>
 
