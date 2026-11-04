@@ -173,5 +173,254 @@ const quizDataMath = [
         ],
         correctIndex: 0
     },
-    {}
-]
+    {
+        category: 'math',
+        question: '電気数理Ⅰ: $\\nabla \\times (\\nabla \\times \\boldsymbol{A})$ として正しいものを選べ',
+        choices: [
+            "$\\nabla(\\nabla \\cdot \\boldsymbol{A}) - \\nabla^2 \\boldsymbol{A}$", 
+            "$\\nabla^2 \\boldsymbol{A} - \\nabla(\\nabla \\cdot \\boldsymbol{A})$", 
+            "$\\boldsymbol{0}$"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'math',
+        question: '電気数理Ⅰ: $\\nabla^2 \\boldsymbol{A}$ として正しいものを選べ',
+        choices: [
+            "$(\\nabla^2 A_x)\\boldsymbol{i} + (\\nabla^2 A_y)\\boldsymbol{j} + (\\nabla^2 A_z)\\boldsymbol{k}$", 
+            "$\\nabla^2 A_x + \\nabla^2 A_y + \\nabla^2 A_z$", 
+            "$\\nabla(\\nabla \\cdot \\boldsymbol{A})$"
+        ],
+        correctIndex: 0
+    },
+    {
+        category:'math',
+        question: '電気数理Ⅰ: $\\nabla \\times (\\nabla f)$ として正しいものを選べ',
+        choices: [
+            "$\\boldsymbol{0}$", 
+            "$\\nabla^2 f$", 
+            "$0$"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'math',
+        question: '電気数理Ⅰ: $\\nabla \\cdot (\\nabla \\times \\boldsymbol{A})$ として正しいものを選べ',
+        choices: [
+            "$0$", 
+            "$\\nabla^2 \\boldsymbol{A}$", 
+            "$\\nabla(\\nabla \\cdot \\boldsymbol{A})$"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'math',
+        question: '電気数理Ⅰ: ガウスの発散定理を表す式として正しいものを選べ',
+        choices: [
+            "$\\iint_S \\boldsymbol{A} \\cdot d\\boldsymbol{S} = \\iiint_V \\nabla \\cdot \\boldsymbol{A} \\, dV$", 
+            "$\\oint_C \\boldsymbol{A} \\cdot d\\boldsymbol{r} = \\iint_S \\nabla \\times \\boldsymbol{A} \\cdot d\\boldsymbol{S}$", 
+            "$\\iint_S \\boldsymbol{A} \\times d\\boldsymbol{S} = \\iiint_V \\nabla \\times \\boldsymbol{A} \\, dV$"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'math',
+        question: '電気数理Ⅰ: ストークスの定理を表す式として正しいものを選べ',
+        choices: [
+            "$\\oint_C \\boldsymbol{A} \\cdot d\\boldsymbol{r} = \\iint_S \\nabla \\times \\boldsymbol{A} \\cdot d\\boldsymbol{S}$", 
+            "$\\iint_S \\boldsymbol{A} \\cdot d\\boldsymbol{S} = \\iiint_V \\nabla \\cdot \\boldsymbol{A} \\, dV$", 
+            "$\\oint_C \\boldsymbol{A} \\cdot d\\boldsymbol{r} = \\iint_S \\nabla \\cdot \\boldsymbol{A} \\, d\\boldsymbol{S}$"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'math',
+        question: '電気数理Ⅰ: $\\boldsymbol{A} \\times (\\boldsymbol{B} \\times \\boldsymbol{C})$',
+        choices: [
+            "(\\boldsymbol{A}\\cdot\\boldsymbol{C})\\boldsymbol{B} - (\\boldsymbol{A}\\cdot\\boldsymbol{B})\\boldsymbol{C}", 
+            "(\\boldsymbol{A}\\cdot\\boldsymbol{B})\\boldsymbol{C} - (\\boldsymbol{A}\\cdot\\boldsymbol{C})\\boldsymbol{B}", 
+            "(\\boldsymbol{A}\\times\\boldsymbol{B})\\cdot\\boldsymbol{C}"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'math',
+        question: '電気数理Ⅰ: $(\\boldsymbol{A} \\times \\boldsymbol{B}) \\times \\boldsymbol{C}$',
+        choices: [
+            "-(\\boldsymbol{C}\\cdot\\boldsymbol{B})\\boldsymbol{A} + (\\boldsymbol{C}\\cdot\\boldsymbol{A})\\boldsymbol{B}", 
+            "(\\boldsymbol{A}\\cdot\\boldsymbol{C})\\boldsymbol{B} - (\\boldsymbol{A}\\cdot\\boldsymbol{B})\\boldsymbol{C}", 
+            "(\\boldsymbol{A}\\cdot\\boldsymbol{B})\\boldsymbol{C}(\\boldsymbol{B}\\cdot\\boldsymbol{C})\\boldsymbol{A}"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'math',
+        question: '電気数理Ⅰ: $\\boldsymbol{A} \\times \\boldsymbol{B}$',
+        choices: [
+            "(|\\boldsymbol{A}||\\boldsymbol{B}| \\sin\\theta)\\boldsymbol{u}", 
+            "(|\\boldsymbol{A}||\\boldsymbol{B}| \\cos\\theta)\\boldsymbol{u}", 
+            "(|\\boldsymbol{A}||\\boldsymbol{B}| \\sin\\theta)"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'math',
+        question: '電気数理Ⅰ: $\\boldsymbol{A} \\cdot (\\boldsymbol{A} \\times \\boldsymbol{B})$',
+        choices: [
+            "0", 
+            "|\\boldsymbol{A}|^2\\boldsymbol{B}", 
+            "1"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'math',
+        question: '電気数理Ⅰ: $\\boldsymbol{A} \\times \\boldsymbol{A}$',
+        choices: [
+            "\\boldsymbol{0}", 
+            "|\\boldsymbol{A}|^2\\boldsymbol{A}", 
+            "-\\boldsymbol{B}\\times\\boldsymbol{A}"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'math',
+        question: '電気数理Ⅰ: $(\\boldsymbol{A} + \\boldsymbol{B}) \\times \\boldsymbol{C}$',
+        choices: [
+            "\\boldsymbol{A} \\times \\boldsymbol{C} + \\boldsymbol{B} \\times \\boldsymbol{C}", 
+            "\\boldsymbol{A} \\times \\boldsymbol{B} +  \\boldsymbol{C}", 
+            "\\boldsymbol{C} \\times \\boldsymbol{A}  + \\boldsymbol{C} \\times \\boldsymbol{B}"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'math',
+        question: '電気数理Ⅰ: $(p\\boldsymbol{A}) \\times \\boldsymbol{B}$',
+        choices: [
+            "p(\\boldsymbol{A} \\times \\boldsymbol{B})", 
+            "p^2(\\boldsymbol{A} \\times \\boldsymbol{B})", 
+            "\\boldsymbol{A} \\times(p\\boldsymbol{B}) + p(\\boldsymbol{A} \\times \\boldsymbol{B})"
+        ],
+        correctIndex: 0
+    },
+
+    // ==========================================
+    // 離散数学（集合論）
+    // ==========================================
+    {
+        category: 'math',
+        question: '次の命題は真か偽か答えよ: $\\varnothing \\in \\{\\varnothing\\}$',
+        choices: ["真", "偽", "判定不能"],
+        correctIndex: 0
+    },
+    {
+        category: 'math',
+        question: '次の命題は真か偽か答えよ: $\\varnothing \\subseteq \\{\\varnothing\\}$',
+        choices: ["真", "偽", "判定不能"],
+        correctIndex: 0
+    },
+    {
+        category: 'math',
+        question: '次の命題は真か偽か答えよ: $\\{\\varnothing\\} \\subseteq \\{\\varnothing\\}$',
+        choices: ["真", "偽", "判定不能"],
+        correctIndex: 0
+    },
+    {
+        category: 'math',
+        question: '次の命題は真か偽か答えよ: $\\{\\varnothing\\} \\in \\{\\varnothing\\}$',
+        choices: ["偽", "真", "判定不能"],
+        correctIndex: 0
+    },
+    {
+        category: 'math',
+        question: '次の命題は真か偽か答えよ: $\\{\\varnothing\\} \\subseteq \\{\\{\\varnothing\\}\\}$',
+        choices: ["真", "偽", "判定不能"],
+        correctIndex: 0
+    },
+    {
+        category: 'math',
+        question: '次の命題は真か偽か答えよ: $\\{\\varnothing\\} \\in \\{\\{\\varnothing\\}\\}$',
+        choices: ["真", "偽", "判定不能"],
+        correctIndex: 0
+    },
+    {
+        category: 'math',
+        question: '集合演算: $\\{a, b\\} \\setminus \\{b, c\\}$',
+        choices: [
+            "\\{a\\}", 
+            "\\{b, c\\}", 
+            "\\{b\\}"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'math',
+        question: '集合演算: $\\{a, b\\} \\times \\{b, c\\}$',
+        choices: [
+            "\\{(a, b), (a, c), (b, b), (b, c)\\}$", 
+            "\\{(a, b),  (b, c)\\}", 
+            "\\{ab, ac, bb, bc\\}"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'math',
+        question: '集合演算: $\\{a, b\\} \\times \\varnothing$',
+        choices: [
+            "\\varnothing", 
+            "\\{(a, b)\\}", 
+            "\\{(a, \\varnothing),  (b, \\varnothing)\\}"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'math',
+        question: '集合演算: $\\{a, b\\} \\sqcup \\{b, c\\}$',
+        choices: [
+            "\\{(a, 0), (b, 0), (b, 1), (c, 1)\\}", 
+            "\\{a, b, c\\}", 
+            "\\{(a, b),  (b, c)\\}"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'math',
+        question: '冪集合: $2^{\\varnothing}$',
+        choices: [
+            "\\{\\varnothing\\}", 
+            "\\varnothing", 
+            "\\{0\\}"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'math',
+        question: '冪集合: $2^{\\{a, b\\}}$',
+        choices: [
+            "\\{\\varnothing, \\{a\\}, \\{b\\}, \\{a, b\\}\\}$", 
+            "\\{\\{a\\}, \\{b\\}\\}$", 
+            "\\{\\varnothing, a, b, \\{a, b\\}\\}"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'math',
+        question: '冪集合: $2^{\\{\\{a, b\\}\\}}$',
+        choices: [
+            "\\{\\varnothing, \\{\\{a, b\\}\\}\\}$", 
+            "\\{\\varnothing, \\{a, b\\}\\}$", 
+            "\\{\\varnothing, \\{a\\}, \\{b\\}\\}"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'math',
+        question: '冪集合: $2^{\\{\\{\\{a, b\\}\\}\\}}$',
+        choices: [
+            "\\{\\varnothing, \\{\\{\\{a, b\\}\\}\\}\\}$", 
+            "\\{\\varnothing, \\{\\{a, b\\}\\}\\}$", 
+            "\\{\\varnothing, \\{a, b\\}\\}"
+        ],
+        correctIndex: 0
+    }
+];
