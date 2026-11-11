@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Quiz</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="script.js" defer></script>
+</head>
+<body>
+  <div id="quiz-container">
+    
+    <!-- ホーム画面 -->
+    <div id="home-container">
+      <p id="clock" class="clock"></p>
+      <h1>🐤ひよこの学習部屋🐤</h1>
+      <img src="nebusoku.png" width="1000" height="500" alt="ひよこの学習部屋">
+      <p id="level" class="level">レベル: 1</p>
+      <p id="save-score" class="score">スコア: 0</p>
+      <p class="text1">どの分野の問題に挑戦しますか？</p>
+      <div class="button-group">
+        <button id="quiz1-btn" class="button1">数学問題</button>
+        <button id="quiz2-btn" class="button2">物理問題</button>
+        <button id="quiz3-btn" class="button3">プログラミング問題</button>
+        <button id="reset-btn" class="buttonreset">データをリセット</button>
+      </div>
+    </div>
+
+    <!-- スタート(数学)画面（クイズ開始画面） -->
+    <div id="start-container" style="display: none;">
+      <h1>３択数学クイズ</h1>
+      <p>全６０問のクイズに挑戦しよう！</p>
+      <p>出題範囲：基礎数理A1 応用数理B 電気数理Ⅰ 離散数学</p>
+      <img src="GIF_studying.gif" width="500" height="300" alt="勉強中のGIF">
+      <button id="start-btn">スタート</button>
+      <button id="back-btn">戻る</button>
+    </div>
+
+    <!--スタート(物理)画面（クイズ開始画面）-->
+    <div id="start-container2" style="display: none;">
+      <h1>３択物理クイズ</h1>
+      <p>全６０問のクイズに挑戦しよう！</P>
+      <p>出題範囲：力学 電磁気 光学 熱</p>
+      <img src="GIF_studying.gif" width="500" height="300" alt="勉強中のGIF">
+      <button id="start-btn2">スタート</button>
+      <button id="back-btn2">戻る</button>
+    </div>
+
+    <!-- スタート(プログラミング)画面（クイズ開始画面） -->
+    <div id="start-container3" style="display: none;">
+      <h1>３択プログラミングクイズ</h1>
+      <p>全６０問のクイズに挑戦しよう！</p>
+      <p>出題範囲：JavaScript Python Java C++</p>
+      <img src="GIF_studying.gif" width="500" height="300" alt="勉強中のGIF">
+      <button id="start-btn3">スタート</button>
+      <button id="back-btn3">戻る</button>
+    </div>
+
+    <!-- クイズ画面（初期状態は非表示） -->
+    <div id="quiz-header" style="display: none;">
+      <h2 id="question">Question text</h2>
+      
+      <form id="quiz-form" name="quizForm">
+        <ul>
+          <li>
+            <input type="radio" id="a" name="answer" value="a" />
+            <label id="a-text" for="a">Question</label>
+          </li>
+          <li>
+            <input type="radio" id="b" name="answer" value="b" />
+            <label id="b-text" for="b">Question</label>
+          </li>
+          <li>
+            <input type="radio" id="c" name="answer" value="c" />
+            <label id="c-text" for="c">Question</label>
+          </li>
+        </ul>  
+      </form>
+    </div>
+    
+    <button id="submit" style="display: none;">回答する</button>
+
+    <!-- 結果画面（初期状態は非表示） -->
+    <div id="results-container">
+      <div id="results-header">
+        <h2 id="results"></h2>
+        <button id="next-quiz">次の問題へ</button>
+      </div>
+
+      <!-- 最終結果表示エリア（全問終了時に使用） -->
+      <div id="final-results" style="display: none;">
+        <h2 id="score-text"></h2>
+        <div id="summary-list"></div>
+        <button id="restart-btn">もう一度挑戦する</button>
+        <button id="back-home-btn">ホームに戻る</button>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
