@@ -156,7 +156,7 @@ const quizDataMath = [
     {
         category: 'math',
         question: '電気数理Ⅰ: $\\nabla \\cdot (f\\boldsymbol{A})$ として正しいものを選べ',
-        ices: [
+        choices: [
             "$\\nabla f \\cdot \\boldsymbol{A} + f \\nabla \\cdot \\boldsymbol{A}$", 
             "$\\nabla f \\times \\boldsymbol{A} + f \\nabla \\times \\boldsymbol{A}$", 
             "$(\\nabla f)(\\nabla \\cdot \\boldsymbol{A})$"
