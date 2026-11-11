@@ -244,7 +244,7 @@ const quizDataPhysics = [
         question: '物理学基礎BⅡ: 角速度 $\\omega$ と周期 $T$ の関係式を選べ',
         choices: [
             "$2\\pi/\\omega$", 
-            "\\omega/2\\pi", 
+            "$\\omega/2\\pi$", 
             "$2\\pi\\omega$"
         ],
         correctIndex: 0
@@ -254,7 +254,7 @@ const quizDataPhysics = [
         question: '物理学基礎BⅡ: 角速度 $\\omega$ と振動数 $f$ の関係式を選べ',
         choices: [
             "$2\\pi f$", 
-            "f/2\\pi", 
+            "$f/2\\pi$", 
             "$2\\pi/f$"
         ],
         correctIndex: 0
@@ -283,9 +283,9 @@ const quizDataPhysics = [
         category: 'physics',
         question: '物理学基礎BⅡ: 減衰係数を $\\gamma$ としたとき、減衰振動の条件を選べ',
         choices: [
-            "\\omega > \\gamma", 
-            "\\omega = \\gamma", 
-            "\\omega < \\gamma"
+            "$\\omega > \\gamma$", 
+            "$\\omega = \\gamma$", 
+            "$\\omega < \\gamma$"
         ],
         correctIndex: 0
     },
@@ -293,9 +293,9 @@ const quizDataPhysics = [
         category: 'physics',
         question: '物理学基礎BⅡ: 減衰係数を $\\gamma$ としたとき、臨界振動の条件を選べ',
         choices: [
-            "\\omega = \\gamma", 
-            "\\omega > \\gamma", 
-            "\\omega < \\gamma"
+            "$\\omega = \\gamma$", 
+            "$\\omega > \\gamma$", 
+            "$\\omega < \\gamma$"
         ],
         correctIndex: 0
     },
@@ -303,9 +303,9 @@ const quizDataPhysics = [
         category: 'physics',
         question: '物理学基礎BⅡ: 減衰係数を $\\gamma$ としたとき、過減衰の条件を選べ',
         choices: [
-            "\\omega < \\gamma", 
-            "\\omega = \\gamma", 
-            "\\omega > \\gamma"
+            "$\\omega < \\gamma$", 
+            "$\\omega = \\gamma$", 
+            "$\\omega > \\gamma$"
         ],
         correctIndex: 0
     },
@@ -323,9 +323,9 @@ const quizDataPhysics = [
         category: 'physics',
         question: '物理学基礎BⅡ: 理想気体に対する音速（温度 $T$, 気体定数 $R$, 分子量 $M$, 比熱比 $\\gamma$）を選べ',
         choices: [
-            "\\sqrt{\\gamma R T / M}", 
-            "\\sqrt{R T / \\gamma M}", 
-            "\\sqrt{\\gamma R M / T}"
+            "$\\sqrt{\\gamma R T / M}$", 
+            "$\\sqrt{R T / \\gamma M}$", 
+            "$\\sqrt{\\gamma R M / T}$"
         ],
         correctIndex: 0
     },
@@ -333,9 +333,9 @@ const quizDataPhysics = [
         category: 'physics',
         question: '物理学基礎BⅡ: ドップラー効果の式を選べ',
         choices: [
-            "f_L = \\frac{V + v_L}{V - v_S} \\times f_S", 
-            "f_L = \\frac{V - v_L}{V + v_S} \\times f_S", 
-            "f_L = \\frac{V - v_L}{V - v_S} \\times f_S"
+            "$f_L = \\frac{V + v_L}{V - v_S} \\times f_S$", 
+            "$f_L = \\frac{V - v_L}{V + v_S} \\times f_S$", 
+            "$f_L = \\frac{V - v_L}{V - v_S} \\times f_S$"
         ],
         correctIndex: 0
     },
@@ -343,9 +343,9 @@ const quizDataPhysics = [
         category: 'physics',
         question: '物理学基礎BⅡ: 屈折の法則を選べ',
         choices: [
-            "\\sin \\theta_1 / \\sin \\theta_2 = c_1 / c_2", 
-            "\\sin \\theta_1 / \\sin \\theta_2 = c_2 / c_1", 
-            "\\sin \\theta_1 / \\sin \\theta_2 = (c_1 + c_2)/2"
+            "$\\sin \\theta_1 / \\sin \\theta_2 = c_1 / c_2$", 
+            "$\\sin \\theta_1 / \\sin \\theta_2 = c_2 / c_1$", 
+            "$\\sin \\theta_1 / \\sin \\theta_2 = (c_1 + c_2)/2$"
         ],
         correctIndex: 0
     },
@@ -353,9 +353,9 @@ const quizDataPhysics = [
         category: 'physics',
         question: '物理学基礎BⅡ: 線密度 $\\mu$、張力 $S$ のとき、弦を伝わる横波の速さを選べ',
         choices: [
-            "\\sqrt{S / \\mu}", 
-            "\\sqrt{\\mu / S}", 
-            "S / \\mu"
+            "$\\sqrt{S / \\mu}$", 
+            "$\\sqrt{\\mu / S}$", 
+            "$S / \\mu$"
         ],
         correctIndex: 0
     },
@@ -363,9 +363,9 @@ const quizDataPhysics = [
         category: 'physics',
         question: '物理学基礎BⅡ: 入射波の式を選べ',
         choices: [
-            "A \\sin 2\\pi \\left( \\frac{t}{T} - \\frac{x}{\\lambda} \\right)", 
-            "A \\sin 2\\pi \\left( \\frac{t}{T} + \\frac{x}{\\lambda} \\right)", 
-            "-A \\sin 4\\pi \\left( \\frac{t}{T} - \\frac{x}{\\lambda} \\right)"
+            "$A \\sin 2\\pi \\left( \\frac{t}{T} - \\frac{x}{\\lambda} \\right)$", 
+            "$A \\sin 2\\pi \\left( \\frac{t}{T} + \\frac{x}{\\lambda} \\right)$", 
+            "$-A \\sin 4\\pi \\left( \\frac{t}{T} - \\frac{x}{\\lambda} \\right)$"
         ],
         correctIndex: 0
     },
@@ -373,9 +373,9 @@ const quizDataPhysics = [
         category: 'physics',
         question: '物理学基礎BⅡ: 反射波の式を選べ',
         choices: [
-            "-A \\sin 2\\pi \\left( \\frac{t}{T} + \\frac{x}{\\lambda} \\right)", 
-            "A \\sin 2\\pi \\left( \\frac{t}{T} + \\frac{x}{\\lambda} \\right)", 
-            "-A \\sin 2\\pi \\left( \\frac{t}{T} - \\frac{x}{\\lambda} \\right)"
+            "$-A \\sin 2\\pi \\left( \\frac{t}{T} + \\frac{x}{\\lambda} \\right)$", 
+            "$A \\sin 2\\pi \\left( \\frac{t}{T} + \\frac{x}{\\lambda} \\right)$", 
+            "$-A \\sin 2\\pi \\left( \\frac{t}{T} - \\frac{x}{\\lambda} \\right)$"
         ],
         correctIndex: 0
     },
@@ -383,9 +383,9 @@ const quizDataPhysics = [
         category: 'physics',
         question: '物理学基礎BⅡ: 波長 $\\lambda$、振動数 $f$ のとき波の速さを選べ',
         choices: [
-            "\\lambda f", 
-            "\\lambda / f", 
-            "f / \\lambda"
+            "$\\lambda f$", 
+            "$\\lambda / f$", 
+            "$f / \\lambda$"
         ],
         correctIndex: 0
     },
@@ -393,9 +393,9 @@ const quizDataPhysics = [
         category: 'physics',
         question: '物理学基礎BⅡ: 波長 $\\lambda$、周期 $T$ のとき波の速さを選べ',
         choices: [
-            "\\lambda / T", 
-            "\\lambda T", 
-            "T / \\lambda"
+            "$\\lambda / T$", 
+            "$\\lambda T$", 
+            "$T / \\lambda$"
         ],
         correctIndex: 0
     },
@@ -403,9 +403,9 @@ const quizDataPhysics = [
         category: 'physics',
         question: '物理学基礎BⅡ: 正弦波の式を選べ',
         choices: [
-            "y = A \\sin 2\\pi \\left( \\frac{t}{T} - \\frac{x}{\\lambda} \\right)", 
-            "y = A \\sin 2\\pi \\left( \\frac{t}{T} + \\frac{x}{\\lambda} \\right)", 
-            "y = A \\cos 2\\pi \\left( \\frac{t}{T} - \\frac{x}{\\lambda} \\right)"
+            "$y = A \\sin 2\\pi \\left( \\frac{t}{T} - \\frac{x}{\\lambda} \\right)$", 
+            "$y = A \\sin 2\\pi \\left( \\frac{t}{T} + \\frac{x}{\\lambda} \\right)$", 
+            "$y = A \\cos 2\\pi \\left( \\frac{t}{T} - \\frac{x}{\\lambda} \\right)$"
         ],
         correctIndex: 0
     },
@@ -413,9 +413,9 @@ const quizDataPhysics = [
         category: 'physics',
         question: '物理学基礎BⅡ: 正弦波の強さ（振幅 $A$, 振動数 $f$, 密度 $\\rho$, 速さ $v$）を選べ',
         choices: [
-            "2\\pi^2 f^2 A^2 \\rho v", 
-            "2\\pi f^2 A^2 \\rho v", 
-            "2\\pi^2 f A^2 \\rho v"
+            "$2\\pi^2 f^2 A^2 \\rho v$", 
+            "$2\\pi f^2 A^2 \\rho v$", 
+            "$2\\pi^2 f A^2 \\rho v$"
         ],
         correctIndex: 0
     },
@@ -423,9 +423,9 @@ const quizDataPhysics = [
         category: 'physics',
         question: '物理学基礎BⅠ: 運動量を求める公式を選べ',
         choices: [
-            "mv", 
-            "ma", 
-            "m/v"
+            "$mv$", 
+            "$ma$", 
+            "$m/v$"
         ],
         correctIndex: 0
     },
@@ -433,9 +433,9 @@ const quizDataPhysics = [
         category: 'physics',
         question: '物理学基礎BⅠ: 力積を求める公式を選べ',
         choices: [
-            "F \\Delta t", 
-            "F / \\Delta t", 
-            "F \\Delta t^2"
+            "$F \\Delta t$", 
+            "$F / \\Delta t$", 
+            "$F \\Delta t^2$"
         ],
         correctIndex: 0
     },
@@ -443,9 +443,9 @@ const quizDataPhysics = [
         category: 'physics',
         question: '物理学基礎BⅠ: 仕事を求める公式を選べ',
         choices: [
-            "Fs", 
-            "F/s", 
-            "F+s"
+            "$Fs$", 
+            "$F/s$", 
+            "$F+s$"
         ],
         correctIndex: 0
     },
@@ -453,9 +453,9 @@ const quizDataPhysics = [
         category: 'physics',
         question: '物理学基礎BⅠ: ばねの弾性エネルギーを求める公式を選べ',
         choices: [
-            "\\frac{1}{2} k x^2", 
-            "kx^2", 
-            "\\frac{1}{2} k x"
+            "$\\frac{1}{2} k x^2$", 
+            "$kx^2$", 
+            "$\\frac{1}{2} k x$"
         ],
         correctIndex: 0
     },
@@ -463,9 +463,9 @@ const quizDataPhysics = [
         category: 'physics',
         question: '物理学基礎BⅠ: 運動量保存則を表す式を選べ',
         choices: [
-            "m_1 v_1 + m_2 v_2 = m_1 v_1' + m_2 v_2'", 
-            "m_1 v_1 + m_2 v_2 = 0", 
-            "m_1 v_1 = m_2 v_2'"
+            "$m_1 v_1 + m_2 v_2 = m_1 v_1' + m_2 v_2'$", 
+            "$m_1 v_1 + m_2 v_2 = 0$", 
+            "$m_1 v_1 = m_2 v_2'$"
         ],
         correctIndex: 0
     },
@@ -473,9 +473,9 @@ const quizDataPhysics = [
         category: 'physics',
         question: '物理学基礎BⅠ: 万有引力による重力加速度を求める公式を選べ',
         choices: [
-            "GM / r^2", 
-            "GM / r", 
-            "Gr^2 / M"
+            "$GM / r^2$", 
+            "$GM / r$", 
+            "$Gr^2 / M$"
         ],
         correctIndex: 0
     },
@@ -483,9 +483,9 @@ const quizDataPhysics = [
         category: 'physics',
         question: '物理学基礎BⅠ: 向心力を求める公式を選べ',
         choices: [
-            "mv^2 / r", 
-            "mv / r", 
-            "mr / v^2"
+            "$mv^2 / r$", 
+            "$mv / r$", 
+            "$mr / v^2$"
         ],
         correctIndex: 0
     },
@@ -493,9 +493,9 @@ const quizDataPhysics = [
         category: 'physics',
         question: '物理学基礎BⅠ: 慣性モーメントを求める公式（質点の場合）を選べ',
         choices: [
-            "mr^2", 
-            "mr", 
-            "m / r^2"
+            "$mr^2$", 
+            "$mr$", 
+            "$m / r^2$"
         ],
         correctIndex: 0
     },
@@ -531,7 +531,7 @@ const quizDataPhysics = [
     },
     {
         category: 'physics',
-        question: 'コンデンサーに蓄えられる電気エネルギーを電気量Qと電圧Vから求める公式を選べ',
+        question: 'コンデンサーに蓄えられる電気エネルギーを電気量 $Q$ と電圧 $V$ から求める公式を選べ',
         choices: [
             "$U=\\frac{1}{2}QV$",
             "$U=QV$",
@@ -599,5 +599,6 @@ const quizDataPhysics = [
         ],
         correctIndex: 0
     }
-]
 ];
+
+export { quizDataPhysics };
