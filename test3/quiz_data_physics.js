@@ -109,10 +109,6 @@ const quizDataPhysics = [
         ],
         correctIndex: 0
     },
-
-    // ==========================================
-    // 物理学基礎BⅡ
-    // ==========================================
     {
         category: 'physics',
         question: '物理学基礎BⅡ: 質点の運動方程式を選べ',
@@ -423,10 +419,6 @@ const quizDataPhysics = [
         ],
         correctIndex: 0
     },
-
-    // ==========================================
-    // 物理学基礎BⅠ
-    // ==========================================
     {
         category: 'physics',
         question: '物理学基礎BⅠ: 運動量を求める公式を選べ',
@@ -506,6 +498,107 @@ const quizDataPhysics = [
             "m / r^2"
         ],
         correctIndex: 0
+    },
+    {
+        category: 'physics',
+        question: 'クーロン力を求める公式を選べ',
+        choices: [
+            "$F=k\\frac{|q_1 q_2|}{r^2}$",
+            "$F=k\\frac{|q_1 q_2|}{r}$",
+            "$F=k\\frac{|q_1 q_2|}{r^3}$"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'physics',
+        question: '電気力による位置エネルギーを求める公式を選べ',
+        choices: [
+            "$U=k\\frac{q_1 q_2}{r}$",
+            "$U=k\\frac{q_1 q_2}{r^2}$",
+            "$U=k\\frac{q_1 q_2}{r^3}$"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'physics',
+        question: 'コンデンサーに蓄えられる電気エネルギーを求める公式を選べ',
+        choices: [
+            "$U=\\frac{1}{2}CV^2$",
+            "$U=\\frac{1}{2}CV$",
+            "$U=CV^2$"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'physics',
+        question: 'コンデンサーに蓄えられる電気エネルギーを電気量Qと電圧Vから求める公式を選べ',
+        choices: [
+            "$U=\\frac{1}{2}QV$",
+            "$U=QV$",
+            "$U=\\frac{1}{2}\\frac{Q}{V}$"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'physics',
+        question: '磁束を求める公式を選べ',
+        choices: [
+            "$\\Phi=BS\\cos\\theta$",
+            "$\\Phi=BS\\sin\\theta$",
+            "$\\Phi=\\frac{B}{S}\\cos\\theta$"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'physics',
+        question: '電流が流れる導線に働く磁力を求める公式を選べ',
+        choices: [
+            "$F=BIl\\sin\\theta$",
+            "$F=BIl\\cos\\theta$",
+            "$F=\\frac{Bl}{I}\\sin\\theta$"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'physics',
+        question: 'ローレンツ力を求める公式を選べ',
+        choices: [
+            "$F=qvB\\sin\\theta$",
+            "$F=qvB\\cos\\theta$",
+            "$F=\\frac{qB}{v}\\sin\\theta$"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'physics',
+        question: '電磁誘導による誘導起電力を求める公式を選べ',
+        choices: [
+            "$V=-N\\frac{\\Delta \\Phi}{\\Delta t}$",
+            "$V=-N\\frac{\\Delta t}{\\Delta \\Phi}$",
+            "$V=N\\frac{\\Delta \\Phi}{\\Delta t}$"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'physics',
+        question: 'コイルに蓄えられる磁気エネルギーを求める公式を選べ',
+        choices: [
+            "$U=\\frac{1}{2}LI^2$",
+            "$U=LI^2$",
+            "$U=\\frac{1}{2}LI$"
+        ],
+        correctIndex: 0
+    },
+    {
+        category: 'physics',
+        question: '理想気体の状態方程式を選べ',
+        choices: [
+            "$pV=nRT$",
+            "$pV=\\frac{n}{RT}$",
+            "$pV=\\frac{nR}{T}$"
+        ],
+        correctIndex: 0
     }
+]
 ];
 
