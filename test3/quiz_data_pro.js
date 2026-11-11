@@ -272,6 +272,13 @@ const quizDataPro = [
         correctIndex: 0,
         explanation:'文字列'12'を整数に変換し、3を足すことで15になります。'
     },
+　　{
+        category:'pro',
+        question:'print(bool(0))',
+        choices:["False", "0", "True"],
+        correctIndex: 0,
+        explanation:'数値の0は真偽値コンテキストでFalseとして評価されます。'
+    },
     {
         category:'pro',
         question:'text = "cat,dog,bild"\nprint(text.split(","))',
@@ -342,11 +349,74 @@ const quizDataPro = [
         correctIndex: 0,
         explanation:'負のインデックス-1はリストの最後の要素を指定するため4が出力されます。'
     }, 
-　　{
-        category:'pro',
-        question:'print(bool(0))',
-        choices:["False", "0", "True"],
+    {
+        category: 'pro',
+        question: 'name = "Taro"\nprint(f"Hello, {name}!")',
+        choices: ["Hello, Taro!", "Hello, name!", "Taro Hello!"],
         correctIndex: 0,
-        explanation:'数値の0は真偽値コンテキストでFalseとして評価されます。'
+        explanation: 'f文字列では、{}の中に書いた変数の値が文字列に埋め込まれます。'
     },
-]
+    {
+        category: 'pro',
+        question: 'numbers = [1, 2, 3]\nprint(numbers * 2)',
+        choices: ["[1, 2, 3, 1, 2, 3]", "[2, 4, 6]", "[1, 2, 3, 2]"],
+        correctIndex: 0,
+        explanation: 'リストに整数を掛けると、その回数だけリストの内容が繰り返されます。'
+    },
+    {
+        category: 'pro',
+        question: 'text = "Python"\nprint(text[::-1])',
+        choices: ["nohtyP", "Python", "pto"],
+        correctIndex: 0,
+        explanation: '[::-1]は文字列を逆順に取り出すスライス表記です。'
+    },
+    {
+        category: 'pro',
+        question: 'def func(x):\n    return x * 2\n\nresult = func(6)\nprint(result)',
+        choices: ["12", "6", "8"],
+        correctIndex: 0,
+        explanation: '関数funcに6を渡すと6×2が計算され、12が返されます。'
+    },
+    {
+        category: 'pro',
+        question: 'class Dog:\n    def __init__(self, name):\n        self.name = name\n\ndog = Dog(\'Pochi\')\nprint(dog.name)',
+        choices: ["Pochi", "Dog", "name"],
+        correctIndex: 0,
+        explanation: 'インスタンス作成時に__init__が呼び出され、name属性にPochiが保存されます。'
+    },
+    {
+        category: 'pro',
+        question: 'x = [1, 2, 3]\ny = x\nx.append(4)\nprint(y)',
+        choices: ["[1, 2, 3, 4]", "[1, 2, 3]", "[4]"],
+        correctIndex: 0,
+        explanation: 'y = xでは同じリストを参照するため、xに追加した4はyからも確認できます。'
+    },
+    {
+        category: 'pro',
+        question: 'for i, value in enumerate([\'A\', \'B\']):\n    print(i, value)',
+        choices: ["0Aと1B", "1Aと2B", "AB"],
+        correctIndex: 0,
+        explanation: 'enumerate()は要素のインデックスと値を同時に取り出します。'
+    },
+    {
+        category: 'pro',
+        question: 'a = [1, 2, 3]\nb = [4, 5, 6]\nprint(list(zip(a, b)))',
+        choices: ["[(1, 4), (2, 5), (3, 6)]", "[1, 2, 3, 4, 5, 6]", "[(1, 2), (4, 5)]"],
+        correctIndex: 0,
+        explanation: 'zip()は複数のリストの同じ位置にある要素を組み合わせます。'
+    },
+    {
+        category: 'pro',
+        question: 'def count(n):\n    if n == 0:\n        return 0\n    return 1 + count(n - 1)\n\nprint(count(4))',
+        choices: ["4", "0", "3"],
+        correctIndex: 0,
+        explanation: '再帰的にnを1ずつ減らし、0になったら終了する。4回呼び出しが積み重なるため4が返されます。'
+    },
+    {
+        category: 'pro',
+        question: 'data = {\'A\': 10, \'B\': 20, \'C\': 30}\nresult = [key for key, value in data.items() if value >= 20]\nprint(result)',
+        choices: ["['B', 'C']", "['A']", "[20, 30]"],
+        correctIndex: 0,
+        explanation: 'items()でキーと値を取り出し、値が20以上のキーだけをリストにします。'
+    }
+];
