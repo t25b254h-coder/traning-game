@@ -146,6 +146,7 @@ backBtn3.addEventListener('click', () => {
   homeContainer.style.display = 'block';
 });
 
+//3つ作る
 // クイズの問題を画面に表示する関数
 function loadQuiz() {
   const currentQuizData = quizDataJp[currentQuiz];
@@ -189,6 +190,7 @@ function showFinalResults() {
 
   scoreText.innerText = `結果: ${score} / ${quizDataJp.length} 問正解！`;
 
+  //3つ作る
   // 各問題の正誤一覧を生成
   summaryList.innerHTML = '';
   quizDataJp.forEach((item, index) => {
