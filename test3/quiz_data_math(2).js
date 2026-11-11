@@ -443,37 +443,37 @@ const quizDataMath = [
     },
     {
         category: 'math',
-        question: '基礎数理AI: $V[aX + b] = ?$',
+        question: '応用数理E: $V[aX + b] = ?$',
         choices: ["$a^2V[X]$", "$aV[X]$", "$a^2V[X] + b$"],
         correctIndex: 0   
     },
     {
         category: 'math',
-        question: '基礎数理AI: $(A \\lor B) \\lor C = ?$',
+        question: '応用数理E: $(A \\lor B) \\lor C = ?$',
         choices: ["$A \\lor (B \\lor C)$", "$A \\land (B \\land C)$", "$(A \\lor C) \\land B$"],
         correctIndex: 0
     },
     {
         category: 'math',
-        question: '基礎数理AI: $A \\lor B = ?$',
+        question: '応用数理E: $A \\lor B = ?$',
         choices: ["$B \\lor A$", "$A \\land B$", "$B \\land A$"],
         correctIndex: 0
     },
     {
         category: 'math',
-        question: '基礎数理AI: $E[a_1X + a_2X + b] = ?$',
+        question: '応用数理E: $E[a_1X + a_2X + b] = ?$',
         choices: ["$a_1E[X]+a_2E[X] + b$", "$a_1a_2E[X] + b$", "$a_1E[X]+a_2E[X] - b$"],
         correctIndex: 0
     },
     {
         category: 'math',
-        question: '基礎数理AI: $E[X_1] = \\mu_1, V[X_1] = \\sigma^2$ とすると $E[\\overline{X}] = ?$',
+        question: '応用数理E: $E[X_1] = \\mu_1, V[X_1] = \\sigma^2$ とすると $E[\\overline{X}] = ?$',
         choices: ["$\\mu$", "$n\\mu$", "$\\mu/n$"],
         correctIndex: 0
     },
     {
         category: 'math',
-        question: '基礎数理AI: $E[X_1] = \\mu_1, V[X_1] = \\sigma^2$ とすると $V[\\overline{X}] = ?$',
+        question: '応用数理E: $E[X_1] = \\mu_1, V[X_1] = \\sigma^2$ とすると $V[\\overline{X}] = ?$',
         choices: ["$\\sigma^2 / n$", "$\\sigma^2n$", "$\\sigma / n$"],
         correctIndex: 0
     }  
