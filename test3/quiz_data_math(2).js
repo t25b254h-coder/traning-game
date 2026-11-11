@@ -422,5 +422,29 @@ const quizDataMath = [
             "\\{\\varnothing, \\{a, b\\}\\}"
         ],
         correctIndex: 0
+    },
+    {
+    category: 'math',
+    question: '基礎数理AI: $A \\lor A = ?$',
+    choices: ["$A$", "0", "1"],
+    correctIndex: 0
+    },
+    {
+    category: 'math',
+    question: '基礎数理AI: $E[aX + b] = ?$',
+    choices: ["$aE[X] + b$", "$aE[X] - b$", "$a^2E[X] + b$"],
+    correctIndex: 0
+    },
+    {
+    category: 'math',
+    question: '基礎数理AI: $V[X] = ?$',
+    choices: ["$E[X^2] - (E[X])^2$", "$E[X^2] + (E[X])^2$", "$E[X^2] - (E[X])$"],
+    correctIndex: 0
+    },
+    {
+    category: 'math',
+    question: '基礎数理AI: $V[aX + b] = ?$',
+    choices: ["$a^2V[X]$", "$aV[X]$", "$a^2V[X] + b$"],
+    correctIndex: 0
     }
 ];
