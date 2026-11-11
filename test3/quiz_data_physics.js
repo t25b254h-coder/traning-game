@@ -521,7 +521,7 @@ const quizDataPhysics = [
     },
     {
         category: 'physics',
-        question: 'コンデンサーに蓄えられる電気エネルギーを求める公式を選べ',
+        question: '電気回路：コンデンサーに蓄えられる電気エネルギーを求める公式を選べ',
         choices: [
             "$U=\\frac{1}{2}CV^2$",
             "$U=\\frac{1}{2}CV$",
@@ -531,7 +531,7 @@ const quizDataPhysics = [
     },
     {
         category: 'physics',
-        question: 'コンデンサーに蓄えられる電気エネルギーを電気量Qと電圧Vから求める公式を選べ',
+        question: '電気回路：コンデンサーに蓄えられる電気エネルギーを電気量Qと電圧Vから求める公式を選べ',
         choices: [
             "$U=\\frac{1}{2}QV$",
             "$U=QV$",
@@ -541,7 +541,7 @@ const quizDataPhysics = [
     },
     {
         category: 'physics',
-        question: '磁束を求める公式を選べ',
+        question: '電気回路：磁束を求める公式を選べ',
         choices: [
             "$\\Phi=BS\\cos\\theta$",
             "$\\Phi=BS\\sin\\theta$",
