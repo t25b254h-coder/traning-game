@@ -303,10 +303,6 @@ const quizDataMath = [
         ],
         correctIndex: 0
     },
-
-    // ==========================================
-    // 離散数学（集合論）
-    // ==========================================
     {
         category: 'math',
         question: '次の命題は真か偽か答えよ: $\\varnothing \\in \\{\\varnothing\\}$',
