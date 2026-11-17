@@ -194,7 +194,7 @@ const quizDataMath = [
         correctIndex: 0
     },
     {
-        category:'math',
+        category: 'math',
         question: '電気数理Ⅰ: $\\nabla \\times (\\nabla f)$ として正しいものを選べ',
         choices: [
             "$\\boldsymbol{0}$", 
@@ -237,9 +237,9 @@ const quizDataMath = [
         category: 'math',
         question: '電気数理Ⅰ: $\\boldsymbol{A} \\times (\\boldsymbol{B} \\times \\boldsymbol{C})$',
         choices: [
-            "(\\boldsymbol{A}\\cdot\\boldsymbol{C})\\boldsymbol{B} - (\\boldsymbol{A}\\cdot\\boldsymbol{B})\\boldsymbol{C}", 
-            "(\\boldsymbol{A}\\cdot\\boldsymbol{B})\\boldsymbol{C} - (\\boldsymbol{A}\\cdot\\boldsymbol{C})\\boldsymbol{B}", 
-            "(\\boldsymbol{A}\\times\\boldsymbol{B})\\cdot\\boldsymbol{C}"
+            "$(\\boldsymbol{A}\\cdot\\boldsymbol{C})\\boldsymbol{B} - (\\boldsymbol{A}\\cdot\\boldsymbol{B})\\boldsymbol{C}$", 
+            "$(\\boldsymbol{A}\\cdot\\boldsymbol{B})\\boldsymbol{C} - (\\boldsymbol{A}\\cdot\\boldsymbol{C})\\boldsymbol{B}$", 
+            "$(\\boldsymbol{A}\\times\\boldsymbol{B})\\cdot\\boldsymbol{C}$"
         ],
         correctIndex: 0
     },
@@ -247,9 +247,9 @@ const quizDataMath = [
         category: 'math',
         question: '電気数理Ⅰ: $(\\boldsymbol{A} \\times \\boldsymbol{B}) \\times \\boldsymbol{C}$',
         choices: [
-            "-(\\boldsymbol{C}\\cdot\\boldsymbol{B})\\boldsymbol{A} + (\\boldsymbol{C}\\cdot\\boldsymbol{A})\\boldsymbol{B}", 
-            "(\\boldsymbol{A}\\cdot\\boldsymbol{C})\\boldsymbol{B} - (\\boldsymbol{A}\\cdot\\boldsymbol{B})\\boldsymbol{C}", 
-            "(\\boldsymbol{A}\\cdot\\boldsymbol{B})\\boldsymbol{C}(\\boldsymbol{B}\\cdot\\boldsymbol{C})\\boldsymbol{A}"
+            "$-(\\boldsymbol{C}\\cdot\\boldsymbol{B})\\boldsymbol{A} + (\\boldsymbol{C}\\cdot\\boldsymbol{A})\\boldsymbol{B}$", 
+            "$(\\boldsymbol{A}\\cdot\\boldsymbol{C})\\boldsymbol{B} - (\\boldsymbol{A}\\cdot\\boldsymbol{B})\\boldsymbol{C}$", 
+            "$(\\boldsymbol{A}\\cdot\\boldsymbol{B})\\boldsymbol{C}(\\boldsymbol{B}\\cdot\\boldsymbol{C})\\boldsymbol{A}$"
         ],
         correctIndex: 0
     },
@@ -257,9 +257,9 @@ const quizDataMath = [
         category: 'math',
         question: '電気数理Ⅰ: $\\boldsymbol{A} \\times \\boldsymbol{B}$',
         choices: [
-            "(|\\boldsymbol{A}||\\boldsymbol{B}| \\sin\\theta)\\boldsymbol{u}", 
-            "(|\\boldsymbol{A}||\\boldsymbol{B}| \\cos\\theta)\\boldsymbol{u}", 
-            "(|\\boldsymbol{A}||\\boldsymbol{B}| \\sin\\theta)"
+            "$(|\\boldsymbol{A}||\\boldsymbol{B}| \\sin\\theta)\\boldsymbol{u}$", 
+            "$(|\\boldsymbol{A}||\\boldsymbol{B}| \\cos\\theta)\\boldsymbol{u}$", 
+            "$(|\\boldsymbol{A}||\\boldsymbol{B}| \\sin\\theta)$"
         ],
         correctIndex: 0
     },
@@ -267,9 +267,9 @@ const quizDataMath = [
         category: 'math',
         question: '電気数理Ⅰ: $\\boldsymbol{A} \\cdot (\\boldsymbol{A} \\times \\boldsymbol{B})$',
         choices: [
-            "0", 
-            "|\\boldsymbol{A}|^2\\boldsymbol{B}", 
-            "1"
+            "$0$", 
+            "$|\\boldsymbol{A}|^2\\boldsymbol{B}$", 
+            "$1$"
         ],
         correctIndex: 0
     },
@@ -277,9 +277,9 @@ const quizDataMath = [
         category: 'math',
         question: '電気数理Ⅰ: $\\boldsymbol{A} \\times \\boldsymbol{A}$',
         choices: [
-            "\\boldsymbol{0}", 
-            "|\\boldsymbol{A}|^2\\boldsymbol{A}", 
-            "-\\boldsymbol{B}\\times\\boldsymbol{A}"
+            "$\\boldsymbol{0}$", 
+            "$|\\boldsymbol{A}|^2\\boldsymbol{A}$", 
+            "$-\\boldsymbol{B}\\times\\boldsymbol{A}$"
         ],
         correctIndex: 0
     },
@@ -287,9 +287,9 @@ const quizDataMath = [
         category: 'math',
         question: '電気数理Ⅰ: $(\\boldsymbol{A} + \\boldsymbol{B}) \\times \\boldsymbol{C}$',
         choices: [
-            "\\boldsymbol{A} \\times \\boldsymbol{C} + \\boldsymbol{B} \\times \\boldsymbol{C}", 
-            "\\boldsymbol{A} \\times \\boldsymbol{B} +  \\boldsymbol{C}", 
-            "\\boldsymbol{C} \\times \\boldsymbol{A}  + \\boldsymbol{C} \\times \\boldsymbol{B}"
+            "$\\boldsymbol{A} \\times \\boldsymbol{C} + \\boldsymbol{B} \\times \\boldsymbol{C}$", 
+            "$\\boldsymbol{A} \\times \\boldsymbol{B} + \\boldsymbol{C}$", 
+            "$\\boldsymbol{C} \\times \\boldsymbol{A} + \\boldsymbol{C} \\times \\boldsymbol{B}$"
         ],
         correctIndex: 0
     },
@@ -297,16 +297,12 @@ const quizDataMath = [
         category: 'math',
         question: '電気数理Ⅰ: $(p\\boldsymbol{A}) \\times \\boldsymbol{B}$',
         choices: [
-            "p(\\boldsymbol{A} \\times \\boldsymbol{B})", 
-            "p^2(\\boldsymbol{A} \\times \\boldsymbol{B})", 
-            "\\boldsymbol{A} \\times(p\\boldsymbol{B}) + p(\\boldsymbol{A} \\times \\boldsymbol{B})"
+            "$p(\\boldsymbol{A} \\times \\boldsymbol{B})$", 
+            "$p^2(\\boldsymbol{A} \\times \\boldsymbol{B})$", 
+            "$\\boldsymbol{A} \\times(p\\boldsymbol{B}) + p(\\boldsymbol{A} \\times \\boldsymbol{B})$"
         ],
         correctIndex: 0
     },
-
-    // ==========================================
-    // 離散数学（集合論）
-    // ==========================================
     {
         category: 'math',
         question: '次の命題は真か偽か答えよ: $\\varnothing \\in \\{\\varnothing\\}$',
@@ -347,9 +343,9 @@ const quizDataMath = [
         category: 'math',
         question: '集合演算: $\\{a, b\\} \\setminus \\{b, c\\}$',
         choices: [
-            "\\{a\\}", 
-            "\\{b, c\\}", 
-            "\\{b\\}"
+            "$\\{a\\}$", 
+            "$\\{b, c\\}$", 
+            "$\\{b\\}$"
         ],
         correctIndex: 0
     },
@@ -357,9 +353,9 @@ const quizDataMath = [
         category: 'math',
         question: '集合演算: $\\{a, b\\} \\times \\{b, c\\}$',
         choices: [
-            "\\{(a, b), (a, c), (b, b), (b, c)\\}$", 
-            "\\{(a, b),  (b, c)\\}", 
-            "\\{ab, ac, bb, bc\\}"
+            "$\\{(a, b), (a, c), (b, b), (b, c)\\}$", 
+            "$\\{(a, b), (b, c)\\}$", 
+            "$\\{ab, ac, bb, bc\\}$"
         ],
         correctIndex: 0
     },
@@ -367,9 +363,9 @@ const quizDataMath = [
         category: 'math',
         question: '集合演算: $\\{a, b\\} \\times \\varnothing$',
         choices: [
-            "\\varnothing", 
-            "\\{(a, b)\\}", 
-            "\\{(a, \\varnothing),  (b, \\varnothing)\\}"
+            "$\\varnothing$", 
+            "$\\{(a, b)\\}$", 
+            "$\\{(a, \\varnothing), (b, \\varnothing)\\}$"
         ],
         correctIndex: 0
     },
@@ -377,9 +373,9 @@ const quizDataMath = [
         category: 'math',
         question: '集合演算: $\\{a, b\\} \\sqcup \\{b, c\\}$',
         choices: [
-            "\\{(a, 0), (b, 0), (b, 1), (c, 1)\\}", 
-            "\\{a, b, c\\}", 
-            "\\{(a, b),  (b, c)\\}"
+            "$\\{(a, 0), (b, 0), (b, 1), (c, 1)\\}$", 
+            "$\\{a, b, c\\}$", 
+            "$\\{(a, b), (b, c)\\}$"
         ],
         correctIndex: 0
     },
@@ -387,9 +383,9 @@ const quizDataMath = [
         category: 'math',
         question: '冪集合: $2^{\\varnothing}$',
         choices: [
-            "\\{\\varnothing\\}", 
-            "\\varnothing", 
-            "\\{0\\}"
+            "$\\{\\varnothing\\}$", 
+            "$\\varnothing$", 
+            "$\\{0\\}$"
         ],
         correctIndex: 0
     },
@@ -397,9 +393,9 @@ const quizDataMath = [
         category: 'math',
         question: '冪集合: $2^{\\{a, b\\}}$',
         choices: [
-            "\\{\\varnothing, \\{a\\}, \\{b\\}, \\{a, b\\}\\}$", 
-            "\\{\\{a\\}, \\{b\\}\\}$", 
-            "\\{\\varnothing, a, b, \\{a, b\\}\\}"
+            "$\\{\\varnothing, \\{a\\}, \\{b\\}, \\{a, b\\}\\}$", 
+            "$\\{\\{a\\}, \\{b\\}\\}$", 
+            "$\\{\\varnothing, a, b, \\{a, b\\}\\}$"
         ],
         correctIndex: 0
     },
@@ -407,9 +403,9 @@ const quizDataMath = [
         category: 'math',
         question: '冪集合: $2^{\\{\\{a, b\\}\\}}$',
         choices: [
-            "\\{\\varnothing, \\{\\{a, b\\}\\}\\}$", 
-            "\\{\\varnothing, \\{a, b\\}\\}$", 
-            "\\{\\varnothing, \\{a\\}, \\{b\\}\\}"
+            "$\\{\\varnothing, \\{\\{a, b\\}\\}\\}$", 
+            "$\\{\\varnothing, \\{a, b\\}\\}$", 
+            "$\\{\\varnothing, \\{a\\}, \\{b\\}\\}$"
         ],
         correctIndex: 0
     },
@@ -417,64 +413,16 @@ const quizDataMath = [
         category: 'math',
         question: '冪集合: $2^{\\{\\{\\{a, b\\}\\}\\}}$',
         choices: [
-            "\\{\\varnothing, \\{\\{\\{a, b\\}\\}\\}\\}$", 
-            "\\{\\varnothing, \\{\\{a, b\\}\\}\\}$", 
-            "\\{\\varnothing, \\{a, b\\}\\}"
+            "$\\{\\varnothing, \\{\\{\\{a, b\\}\\}\\}\\}$", 
+            "$\\{\\varnothing, \\{\\{a, b\\}\\}\\}$", 
+            "$\\{\\varnothing, \\{a, b\\}\\}$"
         ],
         correctIndex: 0
-    }
-      {
+    },
+    {
         category: 'math',
         question: '応用数理E: $A \\lor A = ?$',
-        choices: ["$A$", "0", "1"],
-        correctIndex: 0
-    },
-    {
-        category: 'math',
-        question: '応用数理E: $E[aX + b] = ?$',
-        choices: ["$aE[X] + b$", "$aE[X] - b$", "$a^2E[X] + b$"],
-        correctIndex: 0
-    },
-    {
-        category: 'math',
-        question: '応用数理E: $V[X] = ?$',
-        choices: ["$E[X^2] - (E[X])^2$", "$E[X^2] + (E[X])^2$", "$E[X^2] - (E[X])$"],
-        correctIndex: 0
-    },
-    {
-        category: 'math',
-        question: '応用数理E: $V[aX + b] = ?$',
-        choices: ["$a^2V[X]$", "$aV[X]$", "$a^2V[X] + b$"],
-        correctIndex: 0   
-    },
-    {
-        category: 'math',
-        question: '応用数理E: $(A \\lor B) \\lor C = ?$',
-        choices: ["$A \\lor (B \\lor C)$", "$A \\land (B \\land C)$", "$(A \\lor C) \\land B$"],
-        correctIndex: 0
-    },
-    {
-        category: 'math',
-        question: '応用数理E: $A \\lor B = ?$',
-        choices: ["$B \\lor A$", "$A \\land B$", "$B \\land A$"],
-        correctIndex: 0
-    },
-    {
-        category: 'math',
-        question: '応用数理E: $E[a_1X + a_2X + b] = ?$',
-        choices: ["$a_1E[X]+a_2E[X] + b$", "$a_1a_2E[X] + b$", "$a_1E[X]+a_2E[X] - b$"],
-        correctIndex: 0
-    },
-    {
-        category: 'math',
-        question: '応用数理E: $E[X_1] = \\mu_1, V[X_1] = \\sigma^2$ とすると $E[\\overline{X}] = ?$',
-        choices: ["$\\mu$", "$n\\mu$", "$\\mu/n$"],
-        correctIndex: 0
-    },
- {
-        category: 'math',
-        question: '応用数理E: $A \\lor A = ?$',
-        choices: ["$A$", "0", "1"],
+        choices: ["$A$", "$0$", "$1$"],
         correctIndex: 0
     },
     {
@@ -527,4 +475,4 @@ const quizDataMath = [
     }  
 ];
 
-export { quizDataMath }
+export { quizDataMath };
