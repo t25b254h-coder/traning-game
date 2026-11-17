@@ -129,7 +129,7 @@ resetBtn.addEventListener('click', () => {
   }
 });
 
-// Fisher-Yates シャッフル関数（shuffle.jsから統合）
+// Fisher-Yates シャッフル関数
 function shuffleArray(array) {
   const cloned = [...array];
   for (let i = cloned.length - 1; i > 0; i--) {
