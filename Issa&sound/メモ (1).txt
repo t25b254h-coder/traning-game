@@ -1,0 +1,4 @@
+.volumeは０から１じゃないと動かない
+windowはグローバルオブジェクト
+script.jsの272~277行を追加した。
+index.htmlの８行目に <script src="sound.js" defer></script>を追加した
