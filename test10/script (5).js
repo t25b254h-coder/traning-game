@@ -2,7 +2,7 @@ import { quizDataMath } from './quiz_data_math.js';
 import { quizDataPhysics } from './quiz_data_physics.js';
 import { quizDataPro } from './quiz_data_pro.js';
 import { getLevel, updateLevelDisplay, MAX_LEVEL } from './levelup.js';
-import { UNLOCK_LEVELS, GOD_IMG, HOME_CHICK_KEY, renderChickSelector, resetChickSelection } from './chicks.js';
+import { UNLOCK_LEVELS, GOD_IMG, HOME_CHICK_KEY, renderChickSelector, resetChickSelection, getSelectedChick } from './chicks.js';
 
 // 3分野すべてのデータを1つの配列にまとめる
 const allQuizData = [
@@ -33,6 +33,7 @@ const backBtn3 = document.getElementById('back-btn3');
 
 const quizHeaderElm = document.getElementById('quiz-header');
 const categoryBadge = document.getElementById('category-badge');
+const quizChickImg = document.getElementById('quiz-chick-img');
 const questionElm = document.getElementById('question');
 const optionsDiv = document.getElementById('quiz-options');
 
@@ -239,6 +240,13 @@ function loadQuiz() {
 
   if (categoryBadge) {
     categoryBadge.textContent = `【${catLabel}】 第 ${currentQuiz + 1} / ${activeQuizList.length} 問`;
+  }
+
+  if (quizChickImg) {
+    const selectedImg = getSelectedChick(q.category);
+    if (quizChickImg.getAttribute('src') !== selectedImg) {
+      quizChickImg.src = selectedImg;
+    }
   }
 
   // プログラミング問題（改行を含むコード）は見やすく整形して表示
