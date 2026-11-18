@@ -100,4 +100,11 @@ function resetChickSelection() {
   localStorage.removeItem(HOME_CHICK_KEY);
 }
 
-export { UNLOCK_LEVELS, GOD_IMG, HOME_CHICK_KEY, renderChickSelector, resetChickSelection };
+// 指定された科目の現在選択中のひよこ画像のパスを返す関数
+function getSelectedChick(subjectKey) {
+  const cfg = CHICK_CONFIG[subjectKey];
+  if (!cfg) return DEFAULT_IMG;
+  return localStorage.getItem(cfg.storageKey) || DEFAULT_IMG;
+}
+
+export { UNLOCK_LEVELS, GOD_IMG, HOME_CHICK_KEY, renderChickSelector, resetChickSelection, getSelectedChick };
