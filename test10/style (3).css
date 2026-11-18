@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+
+  /* NOTE */
+  background-image: linear-gradient(315deg, #ffff00 0%, #ffff00 100%);
+
+  /* NOTE */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+
+  /* NOTE */
+  min-height: 100vh;
+}
+
+.clock{
+  font-size: 1.5rem;
+  left: 270px;
+  top: 5px;
+  position: absolute;
+  margin: 1rem 0;
+}
+
+p.level1{
+  position: absolute;
+  font-size: 1.25rem;
+  right: 430px;
+  top: -10px;
+  position: absolute;
+  margin: 1rem 0;
+}
+p.level2{
+  position: absolute;
+  font-size: 1.25rem;
+  right: 430px;
+  top: 15px;
+  position: absolute;
+  margin: 1rem 0;
+}
+p.level3{
+  position: absolute;
+  font-size: 1.25rem;
+  right: 430px;
+  top: 40px;
+  position: absolute;
+  margin: 1rem 0;
+}
+.score1 {
+  position: absolute;
+  font-size: 1.25rem;
+  right: 270px;
+  top: -10px;
+  position: absolute;
+  margin: 1rem 0;
+}
+
+.score2 {
+  position: absolute;
+  font-size: 1.25rem;
+  right: 270px;
+  top: 15px;
+  position: absolute;
+  margin: 1rem 0;
+}
+
+.score3 {
+  position: absolute;
+  font-size: 1.25rem;
+  right: 270px;
+  top: 40px;
+  position: absolute;
+  margin: 1rem 0;
+}
+
+p.text1{
+  font-size: 1.25rem;
+  color: #DC8551;
+}
+
+#quiz-container {
+  background-color: #00f5f5;
+  border-radius: 30px;
+  box-shadow: 0 0 10px 2px rgba(8, 7, 7, 0.1);
+
+  /* NOTE */
+  overflow: hidden;
+
+  width: 1000px;
+  height: 1000px;
+  max-width: 100%;
+  display: unset;
+}
+
+#quiz-header {
+  padding: 4rem;
+}
+
+h2 {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+ul li input {
+  cursor: pointer;
+}
+
+ul li label {
+  cursor: pointer;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.button1 {
+  background-color: #304dec;
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  width: 30%;
+  border-radius: 30px;
+  padding: 1.3rem;
+}
+
+.button1:hover {
+  background-color: #233bc4;
+}
+
+.button2 {
+  background-color: #30ec30;
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  width: 30%;
+  border-radius: 30px;
+  padding: 1.3rem;
+}
+
+.button2:hover {
+  background-color: #23c423;
+}
+
+.button3 {
+  background-color: #f336ca;
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  width: 30%;
+  border-radius: 30px;
+  padding: 1.3rem;
+}
+
+.button3:hover {
+  background-color: #c4239f;
+}
+
+.buttonreset {
+  background-color:rgb(245, 0, 0);
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  width: 30%;
+  border-radius: 30px;
+  padding: 1.3rem;
+}
+
+.buttonreset:hover {
+  background-color:rgb(255, 51, 51);
+
+}
+
+.mute {
+  background-color: gray;
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  width: 30%;
+  border-radius: 30px;
+  padding: 1.3rem;
+}
+
+.mute:hover {
+  background-color: #b6b6b6;
+}
+
+button {
+  background-color: #304dec;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  width: 100%;
+  padding: 1.3rem;
+}
+
+button:hover {
+  background-color: #233bc4;
+}
+
+#results-container {
+  display: none;
+  align-items: center;
+}
+
+#results-header {
+  text-align: center;
+  justify-content: center;
+}
+
+#results {
+  padding: 2rem 0;
+}
+
+/* ===== ひよこ選択（解放式） ===== */
+.chick-title {
+  font-size: 1.25rem;
+  margin: 10px 0 5px;
+}
+
+.chick-select {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin: 10px 2rem 20px;
+}
+
+.chick-btn {
+  width: 120px;
+  padding: 6px;
+  font-size: 1rem;
+  color: #333;
+  background: rgba(255, 255, 255, 0.8);
+  border: 3px solid transparent;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.chick-btn img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.chick-btn:hover:not(:disabled) {
+  background: #ffffff;
+  border-color: #304dec;
+}
+
+.chick-btn.selected {
+  background: #ffffff;
+  border-color: #f336ca;
+}
+
+.chick-btn.locked {
+  min-height: 90px;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.3);
+  cursor: not-allowed;
+}
+
+.chick-btn .lock {
+  font-size: 1.8rem;
+}
+
+
+/* ホーム画面のひよこ（GIFの縦横比を保つ） */
+#home-img {
+  width: 1000px;
+  max-width: 100%;
+  height: auto;
+}
