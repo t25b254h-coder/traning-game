@@ -280,7 +280,7 @@ function loadQuiz() {
   shuffledChoices.forEach((item, displayIndex) => {
     const btn = document.createElement('button');
     btn.className = 'opt-btn';
-    btn.style.margin = '12px 0';
+    btn.style.margin = '8px 0';
     btn.style.borderRadius = '15px';
 
     if (q.category === 'pro') {
