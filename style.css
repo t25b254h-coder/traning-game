@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fffde7;
+
+  /* NOTE */
+  background-image: linear-gradient(315deg, #ffe082 0%, #fffde7 100%);
+
+  /* NOTE */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+  color: #333333;
+}
+
+
+.clock{
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #546e7a;
+  left: 35px;
+  top: 15px;
+  position: absolute;
+  margin: 0.5rem 0;
+}
+
+p.level1, p.level2, p.level3 {
+  position: absolute;
+  font-size: 1.05rem;
+  font-weight: bold;
+  color: #1565c0;
+  right: 175px;
+  margin: 0;
+}
+p.level1 { top: 15px; }
+p.level2 { top: 40px; }
+p.level3 { top: 65px; }
+
+.score1, .score2, .score3 {
+  position: absolute;
+  font-size: 1.05rem;
+  font-weight: bold;
+  color: #e65100;
+  right: 35px;
+  margin: 0;
+}
+.score1 { top: 15px; }
+.score2 { top: 40px; }
+.score3 { top: 65px; }
+
+p.text1{
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #d87a4a;
+}
+
+#quiz-container {
+  position: relative;
+  background-color: #ffffff;
+  background-image: linear-gradient(180deg, #ffffff 0%, #e0f7fa 100%);
+  border: 4px solid #80deea;
+  border-radius: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 1000px;
+  min-height: 750px;
+  height: auto;
+  max-width: 100%;
+  padding: 95px 20px 30px;
+}
+
+#quiz-header {
+  padding: 1.5rem 3rem;
+}
+
+h2 {
+  margin: 0 0 1rem;
+  color: #2c3e50;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.4rem;
+  margin: 1rem 0;
+}
+
+ul li input {
+  cursor: pointer;
+}
+
+ul li label {
+  cursor: pointer;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.button1 {
+  background-image: linear-gradient(135deg, #64b5f6 0%, #1e88e5 100%);
+  border: none;
+  color: white;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: inherit;
+  font-size: 1.35rem;
+  font-weight: bold;
+  width: 30%;
+  min-width: 200px;
+  border-radius: 25px;
+  padding: 1.2rem;
+  box-shadow: 0 4px 10px rgba(30, 136, 229, 0.3);
+  transition: 0.15s;
+}
+
+.button1:hover {
+  background-image: linear-gradient(135deg, #42a5f5 0%, #1565c0 100%);
+  transform: translateY(-2px);
+}
+
+.button2 {
+  background-image: linear-gradient(135deg, #81c784 0%, #43a047 100%);
+  border: none;
+  color: white;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: inherit;
+  font-size: 1.35rem;
+  font-weight: bold;
+  width: 30%;
+  min-width: 200px;
+  border-radius: 25px;
+  padding: 1.2rem;
+  box-shadow: 0 4px 10px rgba(67, 160, 71, 0.3);
+  transition: 0.15s;
+}
+
+.button2:hover {
+  background-image: linear-gradient(135deg, #66bb6a 0%, #2e7d32 100%);
+  transform: translateY(-2px);
+}
+
+.button3 {
+  background-image: linear-gradient(135deg, #f48fb1 0%, #d81b60 100%);
+  border: none;
+  color: white;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: inherit;
+  font-size: 1.35rem;
+  font-weight: bold;
+  width: 30%;
+  min-width: 200px;
+  border-radius: 25px;
+  padding: 1.2rem;
+  box-shadow: 0 4px 10px rgba(216, 27, 96, 0.3);
+  transition: 0.15s;
+}
+
+.button3:hover {
+  background-image: linear-gradient(135deg, #f06292 0%, #ad1457 100%);
+  transform: translateY(-2px);
+}
+
+.buttonreset {
+  background-image: linear-gradient(135deg, #b0bec5 0%, #78909c 100%);
+  border: none;
+  color: white;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 30%;
+  min-width: 200px;
+  border-radius: 25px;
+  padding: 1.1rem;
+  transition: 0.15s;
+}
+
+.buttonreset:hover {
+  background-image: linear-gradient(135deg, #ef5350 0%, #c62828 100%);
+  transform: translateY(-2px);
+}
+
+.mute {
+  background-color: gray;
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  width: 30%;
+  border-radius: 30px;
+  padding: 1.3rem;
+}
+
+.mute {
+  background-image: linear-gradient(135deg, #90a4ae 0%, #607d8b 100%);
+  border: none;
+  color: white;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 30%;
+  min-width: 200px;
+  border-radius: 25px;
+  padding: 1.1rem;
+  transition: 0.15s;
+}
+
+.mute:hover {
+  background-image: linear-gradient(135deg, #78909c 0%, #455a64 100%);
+  transform: translateY(-2px);
+}
+
+button {
+  background-image: linear-gradient(135deg, #64b5f6 0%, #1e88e5 100%);
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-family: inherit;
+  font-size: 1.3rem;
+  font-weight: bold;
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 16px;
+  padding: 1.1rem;
+  box-shadow: 0 3px 8px rgba(30, 136, 229, 0.25);
+  transition: 0.15s;
+}
+
+button:hover {
+  background-image: linear-gradient(135deg, #42a5f5 0%, #1565c0 100%);
+  transform: translateY(-1px);
+}
+
+#results-container {
+  display: none;
+  align-items: center;
+}
+
+#results-header {
+  text-align: center;
+  justify-content: center;
+}
+
+#results {
+  padding: 2rem 0;
+  font-size: 1.4rem;
+}
+
+/* ひよこ選択（解放式 */
+.chick-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+.chick-select {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin: 10px 2rem 20px;
+}
+
+.chick-btn {
+  width: 120px;
+  padding: 6px;
+  font-size: 1rem;
+  color: #333;
+  background: rgba(255, 255, 255, 0.9);
+  border: 3px solid #e0e0e0;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  box-shadow: none;
+}
+
+.chick-btn img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.chick-btn:hover:not(:disabled) {
+  background: #ffffff;
+  border-color: #1e88e5;
+}
+
+.chick-btn.selected {
+  background: #fff8e1;
+  border-color: #ec407a;
+}
+
+.chick-btn.locked {
+  min-height: 90px;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.35);
+  border-color: transparent;
+  cursor: not-allowed;
+}
+
+.chick-btn .lock {
+  font-size: 1.8rem;
+}
+
+
+/* ホーム画面のひよこ（GIFの縦横比を保つ） */
+#home-img {
+  max-width: 100%;
+  max-height: 360px;
+  width: auto;
+  height: auto;
+  border-radius: 16px;
+}
